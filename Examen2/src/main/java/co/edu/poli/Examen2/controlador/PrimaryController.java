@@ -20,7 +20,7 @@ public class PrimaryController {
 	@FXML
 	private ToggleGroup tgFactorRH;
 	@FXML
-	private TextArea txtAreaResultados;
+	private TextArea txtAreaMensajes;
 
 	@FXML
 	public void initialize() {
