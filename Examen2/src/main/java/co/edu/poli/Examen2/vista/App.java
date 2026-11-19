@@ -8,11 +8,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-/**
- * JavaFX App
- */
+/** Punto de entrada JavaFX de la aplicación de exámenes de sangre. */
 public class App extends Application {
-
     private static Scene scene;
 
     @Override
@@ -34,7 +31,6 @@ public class App extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
-
 }

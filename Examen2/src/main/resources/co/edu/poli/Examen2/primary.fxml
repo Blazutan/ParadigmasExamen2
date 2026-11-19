@@ -19,7 +19,7 @@
       style="-fx-background-color: #f4f6f9; -fx-background-radius: 12; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 12, 0, 0, 4);"
       xmlns="http://javafx.com/javafx/21"
       xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="co.edu.poli.Examen2.controlador.PrimaryController">
+      fx:controller="co.edu.poli.Examen2.infrastructure.ui.Controller">
 
    <padding>
       <Insets bottom="28.0" left="30.0" right="30.0" top="28.0" />
@@ -118,6 +118,16 @@
    </GridPane>
 
    <Separator />
+
+   <HBox spacing="12.0" alignment="CENTER_LEFT">
+      <Label text="Formato de archivo:"
+             style="-fx-text-fill: #34495e; -fx-font-weight: bold;">
+         <font><Font size="13.0" /></font>
+      </Label>
+      <ComboBox fx:id="cmbFormato"
+                prefWidth="300.0"
+                style="-fx-background-radius: 6;" />
+   </HBox>
 
    <!-- Fila 1: Guardar y Limpiar -->
    <HBox spacing="12.0" alignment="CENTER">
